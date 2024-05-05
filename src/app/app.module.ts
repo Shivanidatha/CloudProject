@@ -5,6 +5,8 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { AppComponent } from './app.component';
 import 'hammerjs';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+
 import { MenuComponent } from './menu/menu.component';
 import { DishService } from './services/dish.service';
 import { AppRoutingModule } from './app-routing/app-routing.module';
@@ -61,7 +63,8 @@ import { FormsModule } from '@angular/forms';
     FormsModule,
     MatSelectModule,
     MatSlideToggleModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatProgressSpinnerModule
   ],
   entryComponents: [
     LoginComponent

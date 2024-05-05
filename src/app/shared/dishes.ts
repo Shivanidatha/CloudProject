@@ -3,14 +3,14 @@ import { Dish } from './dish';
 export const DISHES: Dish[] = [
     {
         id: '0',
-        name: 'Uthappizza',
-        image: '/assets/images/uthappizza.png',
+        name: 'Best Career Path',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFyUysiDO-BDF3kndkJgPypB-LLV9OD2dQWg&usqp=CAU',
         category: 'mains',
         featured: true,
         label: 'Hot',
         price: '4.99',
         // tslint:disable-next-line:max-line-length
-        description: 'A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.',
+        description: 'We provide the best guidance to students by setting up a good career path and helping them to advance in academics.',
         comments: [
             {
                 rating: 5,
